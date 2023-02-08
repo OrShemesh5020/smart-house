@@ -1,0 +1,46 @@
+.wrapper {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 5px rgb(243 243 243) solid;
+  padding: 5px;
+}
+
+.close {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.close .icon {
+  cursor: pointer;
+}
+
+.selectWrapper {
+  width: 70%;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.select {
+  cursor: pointer;
+}
+
+.btnWrapper {
+  width: 70%;
+  height: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.btn {
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+}
